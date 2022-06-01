@@ -5,9 +5,12 @@
 
 html {
 	scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
-
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 body{
     margin: 1vh 4vw;
